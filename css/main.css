@@ -1,0 +1,26 @@
+h1 {
+    color: yellow;
+}
+h1 span {
+    background-color: seagreen;
+    font-size: 30px;
+}
+p {
+    color: tan;
+    font-size: 19px;
+}
+ul li {
+    list-style-type: circle;
+}
+ol li {
+    list-style-type: disc;
+}q {
+    color: turquoise;
+    font-style: italic;
+}
+a {
+    color: rgb(0, 100, 250);
+}
+a :hover {
+    background-color: lime;
+}
