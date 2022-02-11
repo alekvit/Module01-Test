@@ -5,8 +5,12 @@ body {
 .header {
     display: flex;
     border-bottom: 1px solid #000;
+    padding-top: 10px;
+    padding-right: 20px;
     padding-bottom: 10px;
+    padding-left: 20px;
     font-size: 20px;
+    align-items: center;
 }
 .logo {
     margin-right: 50px;
@@ -14,6 +18,7 @@ body {
     color: lightgreen;
     background-color: rebeccapurple;
     font-style: 700;
+    padding: 5px 15 px;
 }
 a {
     color: rebeccapurple;
@@ -27,7 +32,7 @@ ul {
     margin: 0;
 }
 ul > li {
-    margin-right: 10px;
+    margin-right: 30px;
 }
 .box {
     display: flex;
@@ -36,21 +41,35 @@ ul > li {
     border-bottom: 1px solid #000;
 }
 .aside {
-    border-right: 1px solid #000;
-    padding-right: 20px;
-    width: 90%;
+    padding: 10 px 20px;
+    background-color: lavender;
+    width: 115%;
 }
 .box .aside h3 {
     text-transform: uppercase;
     letter-spacing: 0.5px;
 }
-.box h1  h2 h3 {
+.box .main h1 {
     text-transform: uppercase;
     letter-spacing: 0.5px;
+}
+.box .main h2 {
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+.box .main .section h3 {
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+.box .main .section {
+    background-color: lavender;
+    padding: 5px 20px;
+    margin-bottom: 20px;
 }
 .post {
     padding-bottom: 20px;
 }
 .footer {
     font-size: 13px;
+    padding: 0px 20px;
 }
