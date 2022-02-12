@@ -66,6 +66,15 @@ ul > li {
     padding: 5px 20px;
     margin-bottom: 20px;
 }
+.link {
+    background-color: rebeccapurple;
+    color: white;
+    padding: 8px 10 px;
+    margin-left: 10px;
+}
+ul > li:last-child {
+    margin-right: 0;
+}
 .post {
     padding-bottom: 20px;
 }
