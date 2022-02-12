@@ -5,10 +5,7 @@ body {
 .header {
     display: flex;
     border-bottom: 1px solid #000;
-    padding-top: 10px;
-    padding-right: 20px;
-    padding-bottom: 10px;
-    padding-left: 20px;
+    padding: 10px 20px;
     font-size: 20px;
     align-items: center;
 }
@@ -17,12 +14,12 @@ body {
     text-decoration: none;
     color: lightgreen;
     background-color: rebeccapurple;
-    font-style: 700;
-    padding: 5px 15 px;
+    font-weight: 700;
+    padding: 5px 15px;
 }
 a {
     color: rebeccapurple;
-    font-style: 700;
+    font-weight: 700;
     text-decoration: none;
 }
 ul {
@@ -41,27 +38,22 @@ ul > li {
     border-bottom: 1px solid #000;
 }
 .aside {
-    padding: 10 px 20px;
+    padding: 10px 20px;
     background-color: lavender;
-    width: 115%;
 }
 .box .aside h3 {
     text-transform: uppercase;
     letter-spacing: 0.5px;
 }
-.box .main h1 {
+ h1 h2 h3 {
     text-transform: uppercase;
     letter-spacing: 0.5px;
 }
-.box .main h2 {
+.section h3 {
     text-transform: uppercase;
     letter-spacing: 0.5px;
 }
-.box .main .section h3 {
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-}
-.box .main .section {
+.section {
     background-color: lavender;
     padding: 5px 20px;
     margin-bottom: 20px;
@@ -78,7 +70,7 @@ ul > li:last-child {
 .post {
     padding-bottom: 20px;
 }
-.footer {
+footer {
     font-size: 13px;
     padding: 0px 20px;
 }
