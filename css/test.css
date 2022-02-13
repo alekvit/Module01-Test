@@ -41,15 +41,7 @@ ul > li {
     padding: 10px 20px;
     background-color: lavender;
 }
-.box .aside h3 {
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-}
- h1 h2 h3 {
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-}
-.section h3 {
+ h1, h2, h3 {
     text-transform: uppercase;
     letter-spacing: 0.5px;
 }
@@ -61,7 +53,7 @@ ul > li {
 .link {
     background-color: rebeccapurple;
     color: white;
-    padding: 8px 10 px;
+    padding: 8px 10px;
     margin-left: 10px;
 }
 ul > li:last-child {
